@@ -4,7 +4,6 @@
  */
 
 var express = require('express'),
-  routes = require('./routes'),
   socket = require('./routes/socket.js'),
   http   = require('http'),
   path   = require('path');
